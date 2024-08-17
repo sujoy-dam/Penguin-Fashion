@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-roboto">
     <header class="bg-[#FFFBF0] p-4 lg:pl-[135px] pt-10 mb-12">
         <nav class="lg:pr-[137px]">
 
@@ -16,7 +30,7 @@
         <!-- bannner section -->
         <section class="max-w-[1440px] mx-auto lg:pr-[185px] lg:flex lg:justify-between lg:items-center pb-10 lg:pb-28">
             <div>
-                <h1 class="text-[40px] leading-[50px] lg:leading-[90px] lg:text-7xl uppercase font-bold lg:font-medium">
+                <h1 class="text-[40px] font-bebas-neue leading-[50px] lg:leading-[90px] lg:text-7xl uppercase font-bold lg:font-medium">
                     <span class="text-[#FABE4C]">Be the Penguins</span> <br><span class="text-[#363958]">of
                         Winter</span>
                 </h1>
@@ -34,9 +48,9 @@
     </header>
     <main>
         <section class="max-w-[1250px] mx-auto px-4 lg:px-0 mb-12">
-            <h1 class="text-3xl lg:text-5xl text-center lg:text-left mb-10 text-[#363958] font-bold">WOMEN JACKET</h1>
+            <h1 class="text-3xl lg:text-5xl text-center lg:text-left mb-10 text-[#363958] font-bold font-bebas-neue">WOMEN JACKET</h1>
             <div class="lg:flex justify-between">
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-1.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Yellow Coat Jacket</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -49,7 +63,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-2.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Ladies Jacket</h3>
                     <p class="">Lorem Ipsum is simply dummy text of the
@@ -62,7 +76,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-3.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Woman Leather Jacket</h3>
                     <p class="my-3">Lorem Ipsum is simply dummy text of the
@@ -78,9 +92,9 @@
             </div>
         </section>
         <section class="max-w-[1250px] mx-auto px-4 lg:px-0 mb-12">
-            <h1 class="text-3xl lg:text-5xl text-center lg:text-left mb-10 text-[#363958] font-bold">MAN JACKET</h1>
+            <h1 class="text-3xl lg:text-5xl text-center lg:text-left mb-10 text-[#363958] font-bold font-bebas-neue">MAN JACKET</h1>
             <div class="lg:flex justify-between">
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-4.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Snowboard Jacket Mens</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -93,7 +107,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-5.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Man Leather Jackets</h3>
                     <p class="">Lorem Ipsum is simply dummy text of the
@@ -106,7 +120,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="p-5">
+                <div class="p-5 shadow-xl rounded-2xl">
                     <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="assets/images/jacket-6.png" alt="">
                     <h3 class="text-2xl font-bold my-3">Man Casual Jackets</h3>
                     <p class="my-3">Lorem Ipsum is simply dummy text of the
@@ -119,6 +133,43 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="px-4 lg:px-0 max-w-[1250px] mx-auto flex flex-col-reverse lg:flex-row lg:justify-between items-center gap-20 my-24">
+            <div class="lg:w-2/5 space-y-4">
+                <div class="p-6 flex flex-col lg:flex-row items-center shadow-xl rounded-2xl gap-9">
+                    <div class="w-20 border-2 border-dashed border-gray-400">
+                        <img src="assets/icons/house.png" alt="">
+                    </div>
+                    <div class="text-center lg:text-left">
+                        <h4 class="text-2xl font-bold mb-2">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col lg:flex-row items-center shadow-xl rounded-2xl gap-9">
+                    <div class="w-20 border-2 border-dashed border-gray-400">
+                        <img src="assets/icons/box.png" alt="">
+                    </div>
+                    <div class="text-center lg:text-left">
+                        <h4 class="text-2xl font-bold mb-2">Free Exchanges</h4>
+                        <p>One of the many reasons you can shop
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col lg:flex-row items-center shadow-xl rounded-2xl gap-9">
+                    <div class="w-20 border-2 border-dashed border-gray-400">
+                        <img src="assets/icons/question.png" alt="">
+                    </div>
+                    <div class="text-center lg:text-left">
+                        <h4 class="text-2xl font-bold mb-2">Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite 
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-3/5 lg:border-2 border-dashed border-x-gray-400 border-t-gray-400">
+                <img class="w-full" src="assets/images/shopping.png" alt="">
             </div>
         </section>
     </main>
